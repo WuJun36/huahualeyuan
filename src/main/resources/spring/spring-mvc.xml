@@ -24,6 +24,7 @@
 <!--    静态资源映射-->
     <mvc:resources mapping="layui/**" location="resource/layui/"></mvc:resources>
     <mvc:resources mapping="smtown/**" location="resource/smtown/"></mvc:resources>
+    <mvc:resources mapping="common/**" location="resource/common/"></mvc:resources>
 
 
 </beans>
