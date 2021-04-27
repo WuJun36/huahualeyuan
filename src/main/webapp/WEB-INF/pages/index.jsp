@@ -17,15 +17,15 @@
     <link rel="stylesheet" href="smtown/css/common.css" type="text/css">
     <link rel="stylesheet" href="smtown/css/layout_zh.css" type="text/css">
     <link rel="stylesheet" href="smtown/css/ui.css" type="text/css">
-    <script type="text/javascript" href="common/js/jquery-ui.min.js"></script>
-    <script type="text/javascript" href="common/js/jquery-3.6.0.js"></script>
-    <script type="text/javascript" href="common/js/common.js"></script>
+    <%--    <script type="text/javascript" src="common/js/jquery-ui.min.js"></script>--%>
+    <script type="text/javascript" src="common/js/jquery-3.6.0.js"></script>
+
 </head>
 
 <body>
 
 <div id="wrap">
-    <div id="header" class="gnb_b">
+    <div id="header">
         <!-- logo -->
         <h1 class="logo"><a href="" class="ir">划划乐园</a></h1>
         <a href="#" class="menu_all_btn ir">全部菜单</a>
@@ -42,6 +42,7 @@
             <%--            <li class="layui-nav-item"><a href="#">Entertainment</a></li>--%>
             <%--            <li class="layui-nav-item"><a href="#">Spotlight</a></li>--%>
         </ul>
+
 
         <ul class="gnb gnb_c clfix">
             <li><a href="#">Press Center</a></li>
@@ -72,7 +73,7 @@
                 <ul class="d1 clfix">
                     <%--  Overview开始--%>
                     <li class="d1 bm sn1">
-                        <a herf="#" class="d1">Overview<span></span></a>
+                        <a herf="#" class="d1">Overview<span class="arrow"></span></a>
                         <ul class="d2">
                             <li><a href="#">Introduction</a></li>
                             <li><a href="#">History</a></li>
@@ -81,10 +82,10 @@
                     <%--  Overview结束--%>
                     <%--  Artist开始--%>
                     <li class="d1 bm sn2">
-                        <a href="#" class="d1"><span>Artist</span></a>
+                        <a href="#" class="d1">Artist<span class="arrow"></span></a>
                         <ul class="d2">
                             <%--    todo: 这里要从后台拿数据，写成循环--%>
-                            <li><a>NCT</a></li>
+                            <li><a href="#">NCT</a></li>
                             <li><a>NCT127</a></li>
                             <li><a>NCT DREAM</a></li>
                             <li><a>WayV</a></li>
@@ -93,15 +94,31 @@
                     </li>
                     <%--  Artist结束--%>
                     <%--  ALBUM开始--%>
-                    <li>
-                        <a><span>ALBUM</span></a>
+                    <li class="d1 bm sn3">
+                        <a href="#" class="d1">ALBUM<span class="arrow"></span></a>
                     </li>
                     <%--  ALBUM结束--%>
-                    <%--  Other Entertainment开始--%>
-                    <li>
-                        <a><span>ALBUM</span></a>
+                    <%--                      Other Entertainment开始--%>
+                    <li class="d1 dm sn4">
+                        <a href="#" class="d1">Other Entertainment<span class="arrow"></span></a>
                     </li>
-                    <%--  Other Entertainment结束--%>
+                    <%--                      Other Entertainment结束--%>
+                    <%--Press Center开始--%>
+                    <li class="d1 alone cm sn1">
+                        <a href="#" class="d1">Press Center</a>
+                        <ul class="d2">
+                            <li><a href="#">Press Center</a></li>
+                        </ul>
+                    </li>
+                    <%-- Press Center结束--%>
+                    <%--Contact Us开始--%>
+                    <li class="d1 alone cm sn1">
+                        <a href="#" class="d1">Contact Us<span class="arrow"></span></a>
+                        <ul class="d2">
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <%-- Contact Us结束--%>
                 </ul>
             </div>
         </div>
@@ -110,7 +127,9 @@
     </div>
 
 </div>
-
+<script type="text/javascript" src="common/js/common.js"></script>
 
 </body>
+
+
 </html>

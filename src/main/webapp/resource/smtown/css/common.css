@@ -420,7 +420,7 @@ a.listBtn{display:block;color:#939393;width:146px;height:36px;line-height:34px;b
 	#header .menu_all ul.d1 li.d1 ul.d2 {display:block;position:relative;left:0;top:0;padding:0}
 	#header .menu_all ul.d1 li.d1 ul.d2 li {display:block;margin-left:0;margin-right:0;float:none}
 	#header .menu_all ul.d1 li.d1 ul.d2 li a {display:block;color:#767676;font-size:11px;line-height:16px;height:auto}
-	#header .menu_all ul.d1 li.d1 ul.d2 li a:hover {background-color:#f297b3;color:#ffffff;}
+	#header .menu_all ul.d1 li.d1 ul.d2 li a:hover {background-color:#b1d85c;color:#ffffff;}
 	#header.gnb_b .menu_all {width:1160px;left:50%;margin-left:-580px;}
 	#header.gnb_b .menu_all .btn_close {right:0;bottom:20px;}
 	/* #header.gnb_b .layer { background:#ffffff url("/Images/common/gnb_bg_b.gif") no-repeat right bottom;} */
